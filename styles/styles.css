@@ -59,3 +59,17 @@ main {
     flex: 2;
     background-color: #efcead;
 }
+
+header { 
+    padding: 2rem clamp(2rem, 5vw, 4rem);
+}
+
+#header-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+#header-copy {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
