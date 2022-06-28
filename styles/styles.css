@@ -65,8 +65,14 @@ header {
 }
 
 #header-title {
+    width: min(100%, 40rem);
     font-size: 1.4rem;
     font-weight: 600;
+    line-height: 2rem;
+}
+
+#header-copy {
+    width: min(100%, 30rem);
 }
 
 #header-copy {
