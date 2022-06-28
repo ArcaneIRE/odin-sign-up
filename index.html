@@ -32,6 +32,39 @@
             </p>
         </header>
         <form id="sign-up"  action="">
+            <div id="form-header">
+                <h2 id="form-title">Let's do this!</h2>
+                <p>All fields marked with * are required</p>
+            </div>
+            <div id="form-grid">
+                <div class="form-element">
+                    <label for="form-first-name">First Name *</label>
+                    <input type="text" name="first-name" id="form-first-name" required>
+                </div>
+                <div class="form-element">
+                    <label for="form-last-name">Last Name</label>
+                    <input type="text" name="last-name" id="form-last-name">
+                </div>
+                <div class="form-element">
+                    <label for="form-email">Email *</label>
+                    <input type="email" name="email" id="form-email" required>
+                </div>
+                <div class="form-element">
+                    <label for="form-phone-number">Phone Number</label>
+                    <input type="tel" name="phone-number" id="form-phone-number">
+                </div>
+                
+                <div class="form-element">
+                    <label for="form-password">Password *</label>
+                    <input type="password" name="password" id="form-password" required>
+                </div>
+                <div class="form-element">
+                    <label for="form-confirm-password">Confirm Password *</label>
+                    <input type="password" name="confirm-password" id="form-confirm-password" required>
+                </div>
+            </div>
+            
+            <button type="submit">Create Account</button>
         </form>
         <div id="log-in">
         </div>

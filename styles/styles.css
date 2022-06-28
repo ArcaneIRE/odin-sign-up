@@ -73,3 +73,82 @@ header {
     font-size: 1.2rem;
     font-weight: 400;
 }
+
+form {
+    padding: 2rem clamp(2rem, 5vw, 4rem);
+    background-color: #f5f2f5;
+    color:rgb(41, 41, 41);
+    box-shadow: 0 3px 3px 0px rgba(0, 0, 0, 0.3);
+}
+
+#form-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: min(100%, 40rem);
+}
+
+#form-header p {
+    font-style: italic;
+}
+
+#form-title {
+    margin: 0;
+    grid-column: span 2;
+}
+
+#form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    row-gap: 1rem;
+    width: min(100%, 40rem);
+}
+
+.form-element {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.form-element label {
+    font-size: .8rem;
+    letter-spacing: .05rem;
+    text-transform: uppercase;
+}
+
+.form-element input {
+    padding: .5rem .7rem ;
+    border: 1px solid #c5c2c5;
+    border-radius: .3rem;
+}
+
+.form-element input:focus {
+    outline: none;
+    border: 1px solid rgb(0, 60, 255);
+    box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.3);
+}
+
+input.error {
+    border: 1px solid red !important;
+}
+
+form button[type="submit"] {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: .4rem;
+    background-color: #744c24;
+    font-weight: 600;
+    color: white;
+}
+
+form button[type="submit"]:hover,
+form button[type="submit"]:focus  {
+    background-color: #9b6b43;
+    box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.3);
+}
+
+form button[type="submit"]:active {
+    background-color: #744c24;
+}
