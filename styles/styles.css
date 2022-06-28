@@ -2,14 +2,54 @@ body {
     display: flex;
     height: 100vh;
     width: 100vw;
+    font-family: sans-serif;
 }
 
 #background {
-    display: inline-flex;
     flex: 1;
+    position: relative;
     background: url(/assets/cat-high-5.jpg) center;
+    filter: contrast(110%);
     background-size: cover;
     background-position: 10% 50%;
+}
+
+#background-title {
+    margin-top: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#background-title h1 {
+    font-family: 'Anek Malayalam', sans-serif;
+    margin: 1.5rem 0;
+    font-size: 4rem;
+    letter-spacing: .03em;
+    color: white;
+}
+
+#background-title-cat {
+    height: 6rem;
+}
+
+#background-attributions {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: .8rem;
+    color: white;
+}
+
+.background-attribution {
+    margin: 0.2rem 1rem;
+    text-align: center;
+}
+
+#background-attributions a {
+    color: white;
 }
 
 main {
