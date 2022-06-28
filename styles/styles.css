@@ -7,6 +7,9 @@ body {
 #background {
     display: inline-flex;
     flex: 1;
+    background: url(/assets/cat-high-5.jpg) center;
+    background-size: cover;
+    background-position: 10% 50%;
 }
 
 main {
