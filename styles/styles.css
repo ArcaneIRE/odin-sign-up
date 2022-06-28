@@ -158,3 +158,13 @@ form button[type="submit"]:focus  {
 form button[type="submit"]:active {
     background-color: #744c24;
 }
+
+#log-in {
+    padding: 1.5rem clamp(2rem, 5vw, 4rem);
+}
+
+#log-in a {
+    color: #744c24;
+    font-weight: 600;
+    text-decoration: none;
+}
