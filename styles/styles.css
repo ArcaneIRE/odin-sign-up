@@ -8,7 +8,7 @@ body {
 #background {
     flex: 1;
     position: relative;
-    background: url(/assets/cat-high-5.jpg) center;
+    background: url(../assets/cat-high-5.jpg) center;
     filter: contrast(110%);
     background-size: cover;
     background-position: 10% 50%;
