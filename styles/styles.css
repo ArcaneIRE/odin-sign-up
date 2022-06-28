@@ -54,5 +54,8 @@ body {
 
 main {
     display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
     flex: 2;
+    background-color: #efcead;
 }
