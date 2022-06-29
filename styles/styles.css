@@ -66,9 +66,10 @@ header {
 
 #header-title {
     width: min(100%, 40rem);
-    font-size: 1.4rem;
+    font-size: 2rem;
     font-weight: 600;
-    line-height: 2rem;
+    line-height: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #header-copy {
