@@ -49,7 +49,7 @@ body {
 }
 
 #background-attributions a {
-    color: white;
+    color: inherit;
 }
 
 main {
@@ -168,4 +168,26 @@ form button[type="submit"]:active {
     color: #744c24;
     font-weight: 600;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 950px) {
+    body {
+        flex-direction: column;
+    }
+
+    #background-attributions {
+        top: 0;
+        right: 0;
+        width: 40%;
+        color: black;
+    }
+
+    #form-header {
+        flex-direction: column;
+    }
+
+    #form-grid {
+        grid-template-columns: 1fr;
+        width: min(100%, 25rem);
+    }
 }
